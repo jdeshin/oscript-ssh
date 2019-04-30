@@ -1,0 +1,9 @@
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\bin\Debug\SshDataProcessorCom.dll
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\bin\Debug\SshDataProcessorCom.pdb
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\bin\Debug\Renci.SshNet.dll
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\obj\Debug\SshDataProcessorCom.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\obj\Debug\SshDataProcessorCom.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\obj\Debug\SshDataProcessorCom.csproj.CopyComplete
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\obj\Debug\SshDataProcessorCom.dll
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\obj\Debug\SshDataProcessorCom.pdb
+C:\Users\Administrator\Source\Repos\oscript-ssh\SshDataProcessorCom\bin\Debug\Renci.SshNet.xml

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>oscript-component</name>
+    </assembly>
+    <members>
+        <member name="T:oscriptcomponent.ClientSsh">
+            <summary>
+            КлиентSSH
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.ClientSsh.CreateStream">
+            <summary>
+            Получить Поток
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.ClientSsh.Create">
+            <summary>
+            Получить Соединение
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.ClientSsh.CreateScp">
+            <summary>
+            Получить SCP
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.ClientSsh.SetSshKey(System.String,System.String)">
+            <summary>
+            Установить ключ
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.ClientSsh.Constructor(ScriptEngine.Machine.IValue,ScriptEngine.Machine.IValue,ScriptEngine.Machine.IValue,ScriptEngine.Machine.IValue)">
+            <summary>
+            Создает КлиентSSH
+            </summary>
+            <returns>КлиентSSH</returns>
+            <param name="host">Хост</param>>
+        </member>
+        <member name="M:oscriptcomponent.CommandSsh.Execute">
+            <summary>
+            Выполнить комманду
+            </summary>
+            <returns>Результат выполнения</returns>
+        </member>
+        <member name="T:oscriptcomponent.Connection">
+            <summary>
+            Класс Соединение
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.Connection.NewSshCommand(System.String,ScriptEngine.Machine.IValue,System.Boolean)">
+            <summary>
+            Создает команду
+            </summary>
+            <returns>Результат выполнения</returns>
+        </member>
+        <member name="M:oscriptcomponent.Connection.Execute(System.String)">
+            <summary>
+            Выполнить комманду
+            </summary>
+            <returns>Результат выполнения</returns>
+        </member>
+        <member name="M:oscriptcomponent.Connection.Disconnect">
+            <summary>
+            Закрыть соединение
+            </summary>
+        </member>
+        <member name="T:oscriptcomponent.Scp">
+            <summary>
+            Класс Соединение
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.Scp.#ctor(Renci.SshNet.SftpClient)">
+            <summary>
+            Конструктор 
+            </summary>
+            <param name="scp"></param>
+        </member>
+        <member name="M:oscriptcomponent.Scp.UploadFile(System.String,System.String)">
+            <summary>
+            Отправить Файл
+            </summary>
+            <returns>Результат выполнения</returns>
+        </member>
+        <member name="M:oscriptcomponent.Scp.DownloadFile(System.String,System.String)">
+            <summary>
+            Получить Файл
+            </summary>
+            <returns>Результат выполнения</returns>
+        </member>
+        <member name="M:oscriptcomponent.Scp.Disconnect">
+            <summary>
+            Закрыть соединение
+            </summary>
+        </member>
+        <member name="T:oscriptcomponent.Stream">
+            <summary>
+            Класс Поток
+            </summary>
+        </member>
+        <member name="M:oscriptcomponent.Stream.WriteLine(System.String)">
+            <summary>
+            Записать в поток
+            </summary>
+            <returns>РезультатВыполнения</returns>
+        </member>
+        <member name="M:oscriptcomponent.Stream.DisconnectStream">
+            <summary>
+            Закрыть соединение
+            </summary>
+        </member>
+    </members>
+</doc>
